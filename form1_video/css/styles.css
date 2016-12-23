@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    position: relative;
+    font-family: Arial, sans-serif;
+    background: url("../images/leo.jpg");
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    height: auto;
+}
+
+form {
+    position: absolute;
+    margin-left: 50px;
+    font-size: 17px;
+    width: 30%;
+    left: 5%;
+}
+
+p {
+    padding-top: 10px;
+}
+
+label {
+    height: 30px;
+    color: #ffce0b;
+    font-weight: 700;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+}
+
+input,
+select,
+textarea {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    background-color: transparent;
+    font-size: 15px;
+    color: #ffce0b;
+    outline: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input[type="text"]::-moz-placeholder {
+    color: #fff;
+}
+
+
+/* Firefox 19+ */
+
+input[type="text"]:-moz-placeholder {
+    color: #fff;
+}
+
+
+/* Firefox 18- */
+
+input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input[type="email"]::-moz-placeholder {
+    color: #fff;
+}
+
+
+/* Firefox 19+ */
+
+input[type="email"]:-moz-placeholder {
+    color: #fff;
+}
+
+
+/* Firefox 18- */
+
+input[type="email"]:-ms-input-placeholder {
+    color: #fff;
+}
+
+select {
+    height: 45px;
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+}
+
+[type="submit"] {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: #ffce0b;
+    color: #fff;
+    border: 2px solid #ffce0b;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid #ffce0b;
+    color: #ffce0b;
+}

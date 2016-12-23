@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    position: relative;
+    background: url(../img/Raindrops.jpg);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+    height: auto;
+}
+
+form {
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    margin-left: 50px;
+    font-size: 17px;
+    color: #FFF;
+}
+
+p {
+    font-style: italic;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+fieldset {
+    font-size: 19px;
+    position: relative;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 700;
+    color: #64DA54;
+}
+
+sup {
+    color: red;
+}
+
+[type="text"],
+[type="tel"],
+[type="email"],
+[type="number"],
+select,
+textarea {
+    position: absolute;
+    
+    width: 50%;
+    right: 28%;
+}
+
+textarea {
+    top: 107px;
+    height: 70px;
+}
+
+div {
+    margin: 10px 0px 15px;
+}
+
+.animals {
+    display: inline-block;
+    margin: 0 0 14px 0;
+    width: 24%;
+    
+}
+
+[type="submit"] {
+    margin-top: 15px;
+    border: 2px solid grey;
+    background-color: #FFF;
+    font-size: 13px;
+    color: #64DA54;
+    padding: 5px;
+}
+
+[type="submit"]:hover {
+    background-color: transparent;
+    color: #FFF;
+}

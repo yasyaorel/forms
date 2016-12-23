@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form2</title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <video src="video/Raindrops_Videvo.mp4" width="100%" autoplay loop></video>
+    <main>
+        <section>
+            <form action="#">
+                <p>Пожалуйста, заполните форму. Обязательные поля помечены<sup>*</sup></p>
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                    <label>Имя<sup>*</sup>
+                        <input type="text">
+                    </label>
+                    <div>
+                        <label>Телефон
+                            <input type="tel">
+                        </label>
+                    </div>
+                    <label>Email<sup>*</sup>
+                        <input type="email" class="email">
+                    </label>
+                </fieldset>
+                <fieldset class="info">
+                    <legend>Персональная информация</legend>
+                    <label>Возраст<sup>*</sup>
+                        <input type="number">
+                    </label>
+                    <div><span>Пол</span>
+                        <select>
+                            <option value="Женщина">Женщина</option>
+                            <option value="Мужчина">Мужчина</option>
+                        </select>
+                    </div>
+                    <label>Перечислите
+                        <br>личные
+                        <br>качества
+                        <textarea></textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Выберите ваших любимых животных</legend>
+                    <label class="animals">
+                        <input type="checkbox">Зебра</label>
+                    <label class="animals">
+                        <input type="checkbox">Кошак</label>
+                    <label class="animals">
+                        <input type="checkbox">Анаконда</label>
+                    <label class="animals">
+                        <input type="checkbox">Человек</label>
+                    <label class="animals">
+                        <input type="checkbox">Слон</label>
+                    <label class="animals">
+                        <input type="checkbox">Антилопа</label>
+                    <label class="animals">
+                        <input type="checkbox">Голубь</label>
+                    <label class="animals">
+                        <input type="checkbox">Краб</label>
+                </fieldset>
+                <input type="submit" value="Отправить информацию">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
